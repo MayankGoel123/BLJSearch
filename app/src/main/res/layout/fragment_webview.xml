@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp" />
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="6dp" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#1BCEBD"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/image1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/freeimages"
+                android:text="@string/free_images" />
+
+            <ImageButton
+                android:id="@+id/image2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/pexels"
+                android:text="@string/pexels" />
+
+            <ImageButton
+                android:id="@+id/image3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/unsplash"
+                android:text="@string/unsplash" />
+
+            <ImageButton
+                android:id="@+id/image4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/stocksnap"
+                android:text="@string/stocksnap" />
+
+            <ImageButton
+                android:id="@+id/image5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/pixabay"
+                android:text="@string/pixabay" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+</RelativeLayout>

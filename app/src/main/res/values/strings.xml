@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BLJSearch</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_search">Search</string>
+    <string name="todo">Todo</string>
+    <string name="free_images">Free Images</string>
+    <string name="pexels">Pexels</string>
+    <string name="unsplash">Unsplash</string>
+    <string name="stocksnap">StockSnap</string>
+    <string name="pixabay">Pixabay</string>
+    <string name="storage_manifest">Storage permission is required.</string>
+    <string name="storage_manifest_title">Please give me permission.</string>
+    <string name="download_info">Downloading.</string>
+</resources>
